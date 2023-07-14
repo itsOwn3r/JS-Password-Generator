@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <meta name="description" content="Strong Password Generator">
+    <link href="static/css/style.css" rel="stylesheet">
+    <link rel="icon" href="https://own3r.me/icon.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Strong Password Generator</h1>
+        <p>Super Simple To Use Password Generator! Just specify length of password and hit the button!</p>
+        <p>If you don't specify the length, a random length between 12 and 32 will be specified automatically!</p>
+    </header>
+    <div class="wrapper">
+        <div class="row">
+            <!-- <div id="latest"> -->
+                 <textarea id="result" placeholder="PASSWORD"></textarea>
+            <button class="copy">Copy</button>
+            <input type="number" id="length" min="12" max="72" placeholder="length">
+        </div>
+        <!-- </div> -->
+        <button id="create">Create Strong Password</button>
+    </div>
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
